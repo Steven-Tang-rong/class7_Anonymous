@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,12 @@
 		2463208425E299920077B810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2463208225E299920077B810 /* Main.storyboard */; };
 		2463208625E299940077B810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2463208525E299940077B810 /* Assets.xcassets */; };
 		2463208925E299940077B810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2463208725E299940077B810 /* LaunchScreen.storyboard */; };
+		246320B125E29E690077B810 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 246320B025E29E690077B810 /* GoogleService-Info.plist */; };
+		541723644122F7873445D9C9 /* Pods_class7_Anonymous.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5B30345C3B36710741DB72 /* Pods_class7_Anonymous.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2F7D9FA38F5480996A1148 /* Pods-class7_Anonymous.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-class7_Anonymous.release.xcconfig"; path = "Target Support Files/Pods-class7_Anonymous/Pods-class7_Anonymous.release.xcconfig"; sourceTree = "<group>"; };
 		2463207925E299920077B810 /* class7_Anonymous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = class7_Anonymous.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2463207C25E299920077B810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2463207E25E299920077B810 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		2463208525E299940077B810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2463208825E299940077B810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2463208A25E299940077B810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246320B025E29E690077B810 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7B5B30345C3B36710741DB72 /* Pods_class7_Anonymous.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_class7_Anonymous.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F77973DD2AA296E569E6515 /* Pods-class7_Anonymous.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-class7_Anonymous.debug.xcconfig"; path = "Target Support Files/Pods-class7_Anonymous/Pods-class7_Anonymous.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541723644122F7873445D9C9 /* Pods_class7_Anonymous.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				2463207B25E299920077B810 /* class7_Anonymous */,
 				2463207A25E299920077B810 /* Products */,
+				45026ACB1A6E42AE4DEAA3B0 /* Pods */,
+				906A99573A1001817C6C9CD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +72,26 @@
 				2463208525E299940077B810 /* Assets.xcassets */,
 				2463208725E299940077B810 /* LaunchScreen.storyboard */,
 				2463208A25E299940077B810 /* Info.plist */,
+				246320B025E29E690077B810 /* GoogleService-Info.plist */,
 			);
 			path = class7_Anonymous;
+			sourceTree = "<group>";
+		};
+		45026ACB1A6E42AE4DEAA3B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F77973DD2AA296E569E6515 /* Pods-class7_Anonymous.debug.xcconfig */,
+				1A2F7D9FA38F5480996A1148 /* Pods-class7_Anonymous.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		906A99573A1001817C6C9CD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B5B30345C3B36710741DB72 /* Pods_class7_Anonymous.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2463208D25E299940077B810 /* Build configuration list for PBXNativeTarget "class7_Anonymous" */;
 			buildPhases = (
+				6A987A009F170DEA6BAF026C /* [CP] Check Pods Manifest.lock */,
 				2463207525E299920077B810 /* Sources */,
 				2463207625E299920077B810 /* Frameworks */,
 				2463207725E299920077B810 /* Resources */,
+				6DD847867F2B8574850AA198 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +154,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				2463208925E299940077B810 /* LaunchScreen.storyboard in Resources */,
+				246320B125E29E690077B810 /* GoogleService-Info.plist in Resources */,
 				2463208625E299940077B810 /* Assets.xcassets in Resources */,
 				2463208425E299920077B810 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A987A009F170DEA6BAF026C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-class7_Anonymous-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DD847867F2B8574850AA198 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-class7_Anonymous/Pods-class7_Anonymous-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-class7_Anonymous/Pods-class7_Anonymous-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-class7_Anonymous/Pods-class7_Anonymous-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2463207525E299920077B810 /* Sources */ = {
@@ -283,6 +355,7 @@
 		};
 		2463208E25E299940077B810 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F77973DD2AA296E569E6515 /* Pods-class7_Anonymous.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +374,7 @@
 		};
 		2463208F25E299940077B810 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2F7D9FA38F5480996A1148 /* Pods-class7_Anonymous.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

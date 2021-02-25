@@ -6,14 +6,26 @@
 //
 
 import UIKit
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    override init() {
+        super.init()
+        FirebaseApp.configure()
+        if Auth.auth().currentUser != nil {
+            if(try? Auth.auth().signOut()) == nil {
+                print("登出失敗")
+            }else {
+                print("登出成功")
+            }
+        }
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //FirebaseApp.configure()
         return true
     }
 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>603160737271-92uhg91h9t31ihda1te23tg7j0ddh3i7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.603160737271-92uhg91h9t31ihda1te23tg7j0ddh3i7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCfj8b5C9Y5az5AnDKMbkfsshdekmp6eHY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>603160737271</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Steven-QI.class7-Anonymous</string>
+	<key>PROJECT_ID</key>
+	<string>lesson2-ios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lesson2-ios.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:603160737271:ios:8ad376374ef7602241eaf2</string>
+	<key>DATABASE_URL</key>
+	<string>https://lesson2-ios.firebaseio.com</string>
+</dict>
+</plist>
